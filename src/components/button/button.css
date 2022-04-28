@@ -1,0 +1,29 @@
+
+:root{
+    --primary-white: #fff;
+    --primary-orange: #f9ab00;
+    --primary-blue: #1888ff;
+    --primary-dark: rgba(255,255,255,0);
+}
+
+.btn1{
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin-right: 2em;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary-blue);
+}
+
+.btn:hover{
+    /* padding: 6px 18px; */
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    border-radius: 4px;
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-blue);
+
+}

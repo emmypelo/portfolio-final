@@ -1,0 +1,38 @@
+.info{
+    display: flex;
+    font-size: 1em;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: .5em;
+
+}
+
+
+.icons{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgb(46, 53, 53);
+}
+
+.info a, .info h5{
+    text-align: left !important;
+    color: black !important;
+    /* border: solid 2px red; */
+    width: 400px;
+}
+
+form{
+    max-width: 300px !important;
+    margin: 0 auto !important;
+}
+
+
+.cont-det{
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+    border: 2px solid red !important;
+}
